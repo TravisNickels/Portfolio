@@ -29,17 +29,23 @@ Experienced software engineer and project manager with a focus on full-stack dev
   - [RabbitMQ 4.0 support](https://github.com/Particular/NServiceBus.RabbitMQ/pull/1512) - (PR)
   - [ServiceControl 6.5.0](https://github.com/Particular/ServiceControl/releases/tag/6.5.0) - (Release)
   - [Update to NServiceBus.RabbitMQ 10.0.0 and use management client](https://github.com/Particular/ServiceControl/pull/4755) - (PR)
+  - [RabbitMQ delivery limit check documentation and upgrade guide](https://github.com/Particular/docs.particular.net/pull/6960) - (PR)
+  - [Changes for RabbitMQ transport v10 with ServiceControl](https://github.com/Particular/docs.particular.net/pull/7038) - (PR)
 - Developed a BDD-focused testing DSL for frontend validation.
+  - [ServicePulse 1.38.2](https://github.com/Particular/ServicePulse/releases/tag/1.38.2) - (Release)
   - [History period tests](https://github.com/Particular/ServicePulse/pull/1856) - (PR)
   - [Endpoint sorting tests](https://github.com/Particular/ServicePulse/pull/1815/) - (PR)
   - [Monitoring endpoint details test](https://github.com/Particular/ServicePulse/pull/1845) - (PR)
   - [Filtering monitoring endpoints tests](https://github.com/Particular/ServicePulse/pull/1796) - (PR)
   - [Update roles and aria-labels for testing and accessibility](https://github.com/Particular/ServicePulse/pull/1810) - (PR)
-  - [Migrate failed messages screens to vue](https://github.com/Particular/ServicePulse/pull/1367) - (PR)
 - Collected support metrics to inform the creation of a customer portal, drastically reducing spam and support requests.
 - Contributed to internal and public documentation for troubleshooting and platform guidance.
-  - [Update automated tests readme](https://github.com/Particular/ServicePulse/pull/1837) - (PR)
+  - [Add migration guide for Azure functions in-process to isolated worker host model](https://github.com/Particular/docs.particular.net/pull/6782) - (PR)
   - [Sample MSMQ to Azure Service Bus using the transport bridge](https://github.com/Particular/docs.particular.net/pull/5717) - (PR)
+  - [Update automated tests readme](https://github.com/Particular/ServicePulse/pull/1837) - (PR)
+  - [Update cooperative cancellation sample](https://github.com/Particular/docs.particular.net/pull/6417) - (PR)
+  - [Clarify optimistic concurrency for saga creation](https://github.com/Particular/docs.particular.net/pull/6415) - (PR)
+  - [Added an integrity test for referenced partials](https://github.com/Particular/docs.particular.net/pull/5835) - (PR)
   - [Using NServiceBus in a Blazor server application](https://docs.particular.net/samples/web/blazor-server-application/) - (Sample)
     - [Pull Request](https://github.com/Particular/docs.particular.net/pull/5956) - (PR)
 
@@ -88,6 +94,7 @@ Experienced software engineer and project manager with a focus on full-stack dev
 **Artifacts:**
 
 - [NServicebus Messaging Bridge 0.1.0-alpha.1](https://github.com/Particular/NServiceBus.MessagingBridge/releases/tag/0.1.0-alpha.1) - (Pre-release)
+- [NServicebus Messaging Bridge 0.1.0](https://github.com/Particular/NServiceBus.MessagingBridge/releases/tag/0.1.0) - (Release)
 - [Particular Docs on Messaging Bridge](https://docs.particular.net/nservicebus/bridge/) - (Documentation)
 - [AzureStorageQueue Tests and CI](https://github.com/Particular/NServiceBus.MessagingBridge/pull/29) - (PR)
 
