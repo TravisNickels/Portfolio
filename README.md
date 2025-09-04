@@ -114,3 +114,21 @@ Experienced software engineer and project manager with a focus on full-stack dev
 - Shared findings that influenced broader architectural discussions on distributed messaging reliability.
 
 **Skills demonstrated:** Distributed systems research, prototyping, architecture validation, critical evaluation of open-source frameworks.
+
+## Design & Branding
+
+### YouTube Channel Banner – Particular Software
+
+**Tool:** Affinity Designer 2  
+**Challenge:** Create a professional banner design that reflects the company’s brand and works across multiple device formats.  
+**Result:** Delivered the final banner currently in use on Particular Software’s [YouTube channel](https://www.youtube.com/@ParticularSoftware/videos). Produced multiple design iterations and style options, ensuring consistent branding across platforms.
+
+Artifacts:
+
+- Final design  
+  <a href="images/designs/YouTubeBanner-Whitebackground-2.png">
+  <img src="images/designs/YouTubeBanner-Whitebackground-2.png" alt="Project Flow" width="600"/>
+  </a>
+- Alternative design iterations in [`/images/designs/alternatives`](images/designs/alternatives/)
+
+**Skills demonstrated:** Graphic design, branding alignment, iterative design process, cross-team collaboration.
