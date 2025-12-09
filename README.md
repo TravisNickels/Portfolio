@@ -24,6 +24,7 @@ Experienced software engineer and project manager with a focus on full-stack dev
 
 **Key Contributions:**
 
+- Co-author of [Supercharging saga development](https://particular.net/blog/supercharging-saga-development-2022) blog article
 - Resolved complex RabbitMQ transport issues by integrating Management API with NServiceBus.
   - [NServiceBus.RabbitMQ 10.0.0](https://github.com/Particular/NServiceBus.RabbitMQ/releases/tag/10.0.0) - (Release)
   - [RabbitMQ 4.0 support](https://github.com/Particular/NServiceBus.RabbitMQ/pull/1512) - (PR)
