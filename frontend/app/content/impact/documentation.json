@@ -1,0 +1,18 @@
+{
+  "title": "Documentation improvements",
+  "description": "Updated vendor docs and wrote clear technical guidance that reduces confusion and improves developer experience.",
+  "items": [
+    {
+      "text": "Co-Author: Supercharging saga development",
+      "link": "https://particular.net/blog/supercharging-saga-development-2022"
+    },
+    {
+      "text": "Microsoft: NServiceBus and MassTransit Resiliency Recommendations",
+      "link": "https://github.com/MicrosoftDocs/well-architected/pull/183"
+    },
+    {
+      "text": "RabbitMQ: Update Link to Working Delayed Messaging Implementation",
+      "link": "https://github.com/rabbitmq/rabbitmq-website/pull/2206"
+    }
+  ]
+}

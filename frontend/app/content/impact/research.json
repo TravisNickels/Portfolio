@@ -1,0 +1,18 @@
+{
+  "title": "Investigations, Research, and Deep Dives",
+  "description": "High-difficulty problem-solving and analysis requiring deep system knowledge.",
+  "items": [
+    {
+      "text": "AzureStorageQueue Tests for Messaging Bridge 0.1.0-alpha.1",
+      "link": "https://github.com/Particular/NServiceBus.MessagingBridge/pull/29"
+    },
+    {
+      "text": "Sample: MSMQ to Azure Service Bus using the transport bridge",
+      "link": "https://github.com/Particular/docs.particular.net/pull/5717"
+    },
+    {
+      "text": "Sample: Using NServiceBus in a Blazor server application",
+      "link": "https://github.com/Particular/docs.particular.net/pull/5956/files"
+    }
+  ]
+}

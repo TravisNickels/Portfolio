@@ -1,0 +1,18 @@
+{
+  "title": "RabbitMQ Transport & ServiceControl",
+  "description": "Reliability fixes, integration improvements, and deep transport investigations.",
+  "items": [
+    {
+      "text": "ServiceControl integration with Management API",
+      "link": "https://github.com/Particular/ServiceControl/pull/4755"
+    },
+    {
+      "text": "RabbitMQ delivery limit check documentation and upgrade guide",
+      "link": "https://github.com/Particular/docs.particular.net/pull/6960"
+    },
+    {
+      "text": "Release: NServiceBus.RabbitMQ 10.0.0",
+      "link": "https://github.com/Particular/NServiceBus.RabbitMQ/releases/tag/10.0.0"
+    }
+  ]
+}

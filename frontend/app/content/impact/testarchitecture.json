@@ -1,0 +1,18 @@
+{
+  "title": "BDD DSL and test architecture work",
+  "description": "Improvements to BDD DSL for better readability and maintainability in the ServicePulse frontend",
+  "items": [
+    {
+      "text": "History period tests for ServicePulse",
+      "link": "https://github.com/Particular/ServicePulse/pull/1856"
+    },
+    {
+      "text": "Update roles and aria-labels for testing and accessibility",
+      "link": "https://github.com/Particular/ServicePulse/pull/1810"
+    },
+    {
+      "text": "Release: ServicePulse 1.38.2",
+      "link": "https://github.com/Particular/ServicePulse/releases/tag/1.38.2"
+    }
+  ]
+}
