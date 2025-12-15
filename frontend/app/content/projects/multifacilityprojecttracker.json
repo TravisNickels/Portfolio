@@ -1,0 +1,35 @@
+{
+  "slug": "multifacilityprojecttracker",
+  "title": "Multi-Facility Project Tracker",
+  "tagline": "Centralized project tracking and workflow management for multiple hospitals",
+  "description": "A custom internal platform to track IT projects across six hospitals, replacing restrictive SharePoint workflows. It provided dashboards, automated alerts, and forms to manage overlapping projects, downtime notifications, and procurement processes.",
+  "overview": "The system allowed me to organize, monitor, and report on nearly 50 IT projects annually. It combined project tracking, change requests, procurement, and downtime reporting into a single platform, streamlining weekly meetings and executive reporting.",
+  "architectureSummary": "Built on ASP.NET Core 3.1 with Entity Framework for SQL Server, the platform included a web front-end with real-time updates via JavaScript, hosted on an on-premises server accessible by all facilities. Notifications were sent via Microsoft Exchange SMTP.",
+  "technicalApproach": [
+    "Forms and dashboards for project staff input and weekly executive monitoring",
+    "Automated alerts for project risk, planned and unplanned downtime",
+    "Generic code structure using interfaces and abstractions to handle changing business requirements",
+    "Integration with Microsoft Exchange for email notifications"
+  ],
+  "outcome": "Improved visibility and control over overlapping projects, streamlined weekly project meetings from an hour to 25-30 minutes, and reduced manual paper-based processes by moving approvals and workflows online.",
+  "stack": [
+    "C#",
+    "ASP.NET core 3.1",
+    "JavaScript",
+    "SQL"
+  ],
+  "diagram": "",
+  "mermaidDiagram": "",
+  "artifacts": [
+    {
+      "label": "Procurement flow",
+      "link": "/images/procurement_flow.png",
+      "isImage": true
+    },
+    {
+      "label": "Project flow",
+      "link": "/images/project_flow.png",
+      "isImage": true
+    }
+  ]
+}

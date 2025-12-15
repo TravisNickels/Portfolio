@@ -1,0 +1,34 @@
+{
+  "slug": "clientmanagerdemo",
+  "title": "ClientManagerDemo",
+  "tagline": "Full-stack event-driven demo with real-time UI updates",
+  "description": "ClientManagerDemo shows how a small system can behave like a real distributed workflow. The focus is on message flow, clear boundaries, and being able to see what the system is doing at each step. Commands, events, and processing responsibilities are kept separate, and the design highlights patterns that make larger systems predictable like context propagation, consistent routing, fault isolation, and real-time state updates pushed to the UI. It’s a simple project, but it demonstrates the kind of structure that keeps production systems reliable.",
+  "overview": "ClientManagerDemo models a small distributed workflow using .NET 9, RabbitMQ, PostgreSQL, and Vue 3. It demonstrates separation between command handling and the write model, reliable messaging patterns, and real-time UI updates via SignalR.",
+  "architectureSummary": "Synchronous reads via the API, asynchronous writes via RabbitMQ and a worker service. Messages are enriched with correlation and causation IDs, and middleware pipelines handle validation, context, and routing.",
+  "technicalApproach": [
+    "Command → Queue → Worker → Database → Event → UI (SignalR)",
+    "Publish/Consume middleware pipelines with consistent message envelopes",
+    "Unit, integration, and worker-focused tests to separate concerns",
+    "Docker Compose environment for local runs with health checks"
+  ],
+  "outcome": "A compact, production-like demo that illustrates reliable async patterns and real-time updates. The code is used as a teaching and onboarding reference for distributed design patterns.",
+  "stack": [
+    "C#",
+    ".NET 9",
+    "Vue 3",
+    "TypeScript",
+    "Docker",
+    "RabbitMQ",
+    "PostgreSQL",
+    "SignalR"
+  ],
+  "diagram": "",
+  "mermaidDiagram": "/diagrams/clientmanagerdemo.mmd",
+  "mermaidTitle": "Client Manager Communication Flow",
+  "artifacts": [
+    {
+      "label": "GitHub repo",
+      "link": "https://github.com/TravisNickels/ClientManagerDemo"
+    }
+  ]
+}
