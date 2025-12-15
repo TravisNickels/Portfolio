@@ -16,7 +16,7 @@ const categories = [rabbitmq, testing, research, documentation, design]
       subtitle="Selected contributions demonstrating long-term reliability, clarity, and stewardship across distributed systems and tooling."
     />
 
-    <p class="text-gray-700 leading-relaxed text-lg max-w-3xl">
+    <p class="text-text leading-relaxed text-lg max-w-3xl">
       This page highlights the work that improved platform reliability, test architecture, developer experience, and overall product health beyond
       discrete projects.
     </p>

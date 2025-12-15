@@ -2,7 +2,7 @@
   <div class="container mx-auto px-6 py-3 space-y-8">
     <SectionHeader title="Contact" subtitle="Getting in touch about roles, projects, or technical problems" />
 
-    <div class="space-y-6 text-gray-700 max-w-3xl">
+    <div class="space-y-6 text-text max-w-3xl">
       <p class="text-lg leading-relaxed">
         Email is the easiest way to reach me. I am open to engineering roles and project work where clear thinking, system design, or workflow
         automation can make a real difference.
