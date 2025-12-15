@@ -49,6 +49,8 @@ Experienced software engineer and project manager with a focus on full-stack dev
   - [Added an integrity test for referenced partials](https://github.com/Particular/docs.particular.net/pull/5835) - (PR)
   - [Using NServiceBus in a Blazor server application](https://docs.particular.net/samples/web/blazor-server-application/) - (Sample)
     - [Pull Request](https://github.com/Particular/docs.particular.net/pull/5956) - (PR)
+  - [Using NServiceBus in AWS Lambda with SQS](https://docs.particular.net/samples/aws/lambda-sqs/) - (Sample)
+    - [Update to AWS Lambda hosting sample - dispatching a message outside of a message handler](https://github.com/Particular/docs.particular.net/pull/6163) - (Reviewer)
 
 **Skills demonstrated:** Distributed systems, testing, BDD, customer support, documentation
 
