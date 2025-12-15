@@ -10,20 +10,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v6.1.0
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6.1.0
         with:
           node-version: 20
 
       - name: Install dependencies
         run: npm ci
+        working-directory: frontend
 
       - name: Generate nuxt files
         run: npm run generate
+        working-directory: frontend
 
       - name: Publish portfolio to GitHub Pages
         if: github.ref == 'refs/heads/main'
-        uses: peaceiris/actions-gh-pages@4
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .output/public
