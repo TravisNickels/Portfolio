@@ -49,7 +49,7 @@ onMounted(async () => {
           <p class="text-sm text-text">Artifacts</p>
           <ul class="text-sm mt-2 space-y-2">
             <li v-for="(a, i) in project.artifacts" :key="i">
-              <UModal :ui="{ content: 'w-[85vw] h-[85vh] max-w-none' }" :title="a.label">
+              <UModal :ui="{ content: 'w-[85vw] h-[85vh] max-w-none' }" :title="a.label" description="Asset images">
                 <ULink v-if="a.isImage" as="button" class="cursor-pointer text-accent underline hover:text-primary">{{ a.label }}</ULink>
                 <template #body>
                   <img :src="a.link" />

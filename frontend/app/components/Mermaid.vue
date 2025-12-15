@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref, watch, onBeforeUnmount, nextTick } from 'vue'
 import mermaid from 'mermaid'
-import { title } from 'node:process'
 
 const props = defineProps<{ source: string; title: string }>()
 
@@ -125,7 +124,12 @@ onBeforeUnmount(() => {
 
     <!-- Controls -->
     <div class="absolute top-3 right-3 z-10 flex flex-col gap-2">
-      <UModal v-model:open="isModalOpen" :ui="{ content: 'w-[85vw] h-[45vh] max-w-none' }" :title="props.title">
+      <UModal
+        v-model:open="isModalOpen"
+        :ui="{ content: 'w-[85vw] h-[45vh] max-w-none' }"
+        :title="props.title"
+        description="Interactive mermaid diagram with pan and zoom controls"
+      >
         <UButton icon="i-heroicons-arrows-pointing-out" size="xs" variant="solid" />
         <template #body>
           <div class="modal-container relative border rounded-lg bg-white overflow-hidden">
