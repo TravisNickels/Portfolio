@@ -1,0 +1,45 @@
+flowchart LR
+    subgraph ClientSide[Client Side]
+        FE[Frontend<br/>Vue 3 + Pinia]
+    end
+
+    subgraph ServerSide[Server Side]
+        API[API<br/>ASP.NET 10]
+        MQ[RabbitMQ<br/>Broker]
+        WRK[Worker<br/>.NET Worker]
+        DB[PostgreSQL]
+    end
+
+    %% Synchronous Flows (solid green)
+    FE -->|HTTP| API
+    API -->|Query GET requests| DB
+    API -->|Publish command| MQ
+
+    %% Asynchronous Flows (dashed blue)
+    MQ a1@==>|Consume message| WRK
+    WRK a2@==>|Persist data| DB
+    WRK a3@==>|Publish event| MQ
+    MQ a4@==>|Deliver event| API
+    API a5@==>|SignalR / Broadcast events| FE
+
+    %% Animation
+    a1@{animate: true}
+    a2@{animate: true}
+    a3@{animate: true}
+    a4@{animate: true}
+    a5@{animate: true}
+
+    %% Styling
+    classDef sync stroke:#4CAF50,stroke-width:2px;
+    classDef async stroke:#2196F3,stroke-width:2px,stroke-dasharray: 5 5;
+    class FE,API,DB sync
+    class MQ,WRK async
+    linkStyle 0,1,2 stroke:#22C55E,stroke-width:2px;
+    linkStyle 3,4,5,6,7 stroke:#3B82F6,stroke-width:2px,stroke-dasharray: 5 5;
+
+    %% Legend
+    classDef legendBox fill:none,stroke:none,color:#444,font-size:12px,text-align:left;
+    L1(["🟩 Solid Green → Synchronous (HTTP / SignalR / DB Reads)"])
+    L2(["🟦 Dashed Blue → Asynchronous (Message Queue / Worker)"])
+    L1:::legendBox
+    L2:::legendBox
