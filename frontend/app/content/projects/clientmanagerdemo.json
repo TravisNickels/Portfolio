@@ -23,7 +23,7 @@
     "SignalR"
   ],
   "diagram": "",
-  "mermaidDiagram": "/diagrams/clientmanagerdemo.mmd",
+  "mermaidDiagram": "diagrams/clientmanagerdemo.mmd",
   "mermaidTitle": "Client Manager Communication Flow",
   "artifacts": [
     {

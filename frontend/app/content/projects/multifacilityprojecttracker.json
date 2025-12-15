@@ -23,12 +23,12 @@
   "artifacts": [
     {
       "label": "Procurement flow",
-      "link": "/images/procurement_flow.png",
+      "link": "images/procurement_flow.png",
       "isImage": true
     },
     {
       "label": "Project flow",
-      "link": "/images/project_flow.png",
+      "link": "images/project_flow.png",
       "isImage": true
     }
   ]
