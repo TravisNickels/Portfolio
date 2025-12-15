@@ -1,29 +1,32 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  vite: {
-    assetsInclude: ['**/*.mmd'],
+  modules: ['@nuxt/eslint', '@nuxt/ui'],
+
+  devtools: {
+    enabled: true,
   },
-  ssr: false,
+
   app: {
     baseURL:
       process.env.NODE_ENV === 'production'
         ? '/TravisNickels/' // GitHub Pages repo name
         : '/',
-    head: {
-      title: 'Travis Nickels • Software Engineer',
-      meta: [
-        {
-          name: 'description',
-          content: 'Senior Software Engineer with experience in .NET, Vue, distributed systems, and workflow automation.',
-        },
-      ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+  },
+
+  css: ['~/assets/css/main.css'],
+
+  routeRules: {
+    '/': { prerender: true },
+  },
+
+  compatibilityDate: '2025-01-15',
+
+  eslint: {
+    config: {
+      stylistic: {
+        commaDangle: 'never',
+        braceStyle: '1tbs',
+      },
     },
   },
-  tailwindcss: {
-    cssPath: '~/assets/css/tailwind.css',
-  },
-  compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss'],
 })
