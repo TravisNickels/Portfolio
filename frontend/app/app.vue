@@ -1,6 +1,5 @@
 <script setup>
 const base = useRuntimeConfig().app.baseURL
-console.log('Base: ', base)
 useHead({
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
