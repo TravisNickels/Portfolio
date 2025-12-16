@@ -15,13 +15,18 @@
         </div>
 
         <div class="mt-6 space-y-3">
-          <h4 class="text-sm font-semibold text-text/75">Selected skills</h4>
+          <h4 class="text-sm font-semibold text-text/75">Technical skills</h4>
           <div class="flex flex-wrap gap-2">
-            <span class="px-3 py-1 text-sm bg-surface border border-primary/75 rounded text-text/75">C#, .NET</span>
-            <span class="px-3 py-1 text-sm bg-surface border border-primary/75 rounded text-text/75">Distributed Systems</span>
-            <span class="px-3 py-1 text-sm bg-surface border border-primary/75 rounded text-text/75">RabbitMQ / NServiceBus</span>
-            <span class="px-3 py-1 text-sm bg-surface border border-primary/75 rounded text-text/75">Vue 3 / Nuxt</span>
+            <span class="px-3 py-1 text-sm bg-surface border border-primary/75 rounded text-text/75">C#, .NET Core</span>
             <span class="px-3 py-1 text-sm bg-surface border border-primary/75 rounded text-text/75">CI/CD</span>
+            <span class="px-3 py-1 text-sm bg-surface border border-primary/75 rounded text-text/75">BDD</span>
+            <span class="px-3 py-1 text-sm bg-surface border border-primary/75 rounded text-text/75">Vue 3 / Nuxt</span>
+            <span class="px-3 py-1 text-sm bg-surface border border-primary/75 rounded text-text/75">GraphQL</span>
+            <span class="px-3 py-1 text-sm bg-surface border border-primary/75 rounded text-text/75">Distributed Systems</span>
+            <span class="px-3 py-1 text-sm bg-surface border border-primary/75 rounded text-text/75">NServiceBus</span>
+            <span class="px-3 py-1 text-sm bg-surface border border-primary/75 rounded text-text/75">ASB / Azure Functions</span>
+            <span class="px-3 py-1 text-sm bg-surface border border-primary/75 rounded text-text/75">RabbitMQ</span>
+            <span class="px-3 py-1 text-sm bg-surface border border-primary/75 rounded text-text/75">PostgreSQL / SQL</span>
           </div>
         </div>
 
