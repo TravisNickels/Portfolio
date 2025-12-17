@@ -14,7 +14,7 @@
   "outcome": "Improved visibility and control over overlapping projects, streamlined weekly project meetings from an hour to 25-30 minutes, and reduced manual paper-based processes by moving approvals and workflows online.",
   "stack": [
     "C#",
-    "ASP.NET core 3.1",
+    "ASP.NET Core 5.0",
     "JavaScript",
     "SQL"
   ],
