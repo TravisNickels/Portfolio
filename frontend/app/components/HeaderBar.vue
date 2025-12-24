@@ -19,8 +19,11 @@ const items = ref<NavigationMenuItem[][]>([
       <NuxtLink to="/" class="text-xl font-semibold text-primary"> Travis<span class="text-secondary"> Nickels</span> </NuxtLink>
     </template>
     <template #right>
-      <UNavigationMenu :items="items" variant="link" class="hover:text-accent" color="info" />
+      <UNavigationMenu :items="items" variant="link" class="hover:text-accent hidden md:flex" color="info" />
       <UColorModeButton />
+    </template>
+    <template #body>
+      <UNavigationMenu :items="items" variant="link" orientation="vertical" class="space-y-2" color="info" />
     </template>
   </UHeader>
 </template>
