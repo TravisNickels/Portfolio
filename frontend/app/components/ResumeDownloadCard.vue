@@ -11,7 +11,7 @@ const pdfPath = baseUrl + 'resume/TravisNickels_SoftwareEngineer_2025.pdf'
     </div>
 
     <div class="flex gap-3">
-      <a class="px-4 py-2 bg-primary text-white rounded-md hover:bg-primary/80 transition" :href="pdfPath" download>Download PDF</a>
+      <a class="px-4 py-2 bg-primary text-white rounded-md hover:bg-primary/80 transition whitespace-nowrap" :href="pdfPath" download>Download PDF</a>
       <NuxtLink to="/resume" class="px-4 py-2 border rounded-md text-primary hover:text-primary/80 hover:bg-primary/10 transition">View</NuxtLink>
     </div>
   </div>
