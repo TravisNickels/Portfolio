@@ -3,7 +3,7 @@ const baseUrl = useRuntimeConfig().app.baseURL
 </script>
 
 <template>
-  <div class="container mx-auto px-6 py-3 space-y-8">
+  <div class="container mx-auto py-3 space-y-8">
     <SectionHeader title="Resume" subtitle="Download a printable PDF or view it inline." />
 
     <div class="grid gap-6 lg:grid-cols-3">

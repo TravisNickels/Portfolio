@@ -10,7 +10,7 @@ const categories = [rabbitmq, testing, research, documentation, design]
 </script>
 
 <template>
-  <div class="container mx-auto px-6 py-3 space-y-8">
+  <div class="container mx-auto py-3 space-y-8">
     <SectionHeader
       title="Impact"
       subtitle="Selected contributions demonstrating long-term reliability, clarity, and stewardship across distributed systems and tooling."

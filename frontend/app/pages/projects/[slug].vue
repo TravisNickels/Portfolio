@@ -18,7 +18,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="container mx-auto px-6 py-3 space-y-8">
+  <div class="container mx-auto py-3 space-y-8">
     <SectionHeader :title="project.title" :subtitle="project.tagline" />
 
     <div class="grid gap-8 lg:grid-cols-3">

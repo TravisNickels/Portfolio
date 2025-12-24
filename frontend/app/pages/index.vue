@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-6 py-3 space-y-8">
+  <div class="container mx-auto py-3 space-y-8">
     <SectionHeader title="Travis Nickels" subtitle="Senior Software Engineer — automating things so people can do real work." />
 
     <div class="grid gap-8 lg:grid-cols-2 items-start">

@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-6 py-3 space-y-8">
+  <div class="container mx-auto py-3 space-y-8">
     <SectionHeader title="Contact" subtitle="Getting in touch about roles, projects, or technical problems" />
 
     <div class="space-y-6 text-text max-w-3xl">

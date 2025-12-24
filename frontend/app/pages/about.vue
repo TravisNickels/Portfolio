@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-6 py-3 space-y-8">
+  <div class="container mx-auto py-3 space-y-8">
     <SectionHeader title="About" subtitle="How I think about systems, clarity, and solving hard problems" />
 
     <div class="space-y-6 text-text max-w-3xl">
