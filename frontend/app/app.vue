@@ -38,9 +38,9 @@ useSeoMeta({
 
       <!-- Expands to anchor footer to bottom of page -->
       <main class="flex-1 flex">
-        <div class="container mx-auto px-6 py-12 w-full">
+        <UContainer class="py-12">
           <NuxtPage />
-        </div>
+        </UContainer>
       </main>
 
       <!-- <USeparator icon="i-simple-icons-nuxtdotjs" /> -->
