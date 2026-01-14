@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const baseUrl = useRuntimeConfig().app.baseURL
-const pdfPath = baseUrl + 'resume/TravisNickels_SoftwareEngineer_2025.pdf'
+const pdfPath = baseUrl + 'resume/TravisNickels_SoftwareEngineer_2026.pdf'
 </script>
 
 <template>

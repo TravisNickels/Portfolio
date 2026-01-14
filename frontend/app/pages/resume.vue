@@ -8,7 +8,7 @@ const baseUrl = useRuntimeConfig().app.baseURL
 
     <div class="grid gap-6 lg:grid-cols-3">
       <div class="lg:col-span-2">
-        <iframe :src="baseUrl + 'resume/TravisNickels_SoftwareEngineer_2025.pdf'" class="w-full h-[80vh] border rounded-lg" />
+        <iframe :src="baseUrl + 'resume/TravisNickels_SoftwareEngineer_2026.pdf'" class="w-full h-[80vh] border rounded-lg" />
       </div>
 
       <aside class="space-y-4">
@@ -22,7 +22,7 @@ const baseUrl = useRuntimeConfig().app.baseURL
         <div class="bg-card border border-primary rounded-lg p-6 shadow">
           <h4 class="font-semibold">Download</h4>
           <a
-            :href="baseUrl + 'resume/TravisNickels_SoftwareEngineer_2025.pdf'"
+            :href="baseUrl + 'resume/TravisNickels_SoftwareEngineer_2026.pdf'"
             download
             class="mt-3 inline-block px-4 py-2 bg-primary text-white rounded-md hover:bg-primary/80 transition"
             >Download PDF</a
